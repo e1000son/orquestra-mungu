@@ -1,0 +1,96 @@
+.header .logo img {
+  width: 90px;
+  top: -10px;
+}
+
+.interna-contacto {
+	background: url("../img/bg-sobre.jpg") no-repeat center;
+	background-size: cover;
+}
+
+/*Contacto*/
+
+.contacto {
+	padding: 40px 0;
+}
+
+.contacto-form {
+	padding-right: 60px;
+}
+
+.contacto-form label {
+	display: block;
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 4px;
+}
+
+.contacto-form input {
+	display: block;
+	width: 100%;
+	border: 4px solid #fec63e;
+	background: none;
+	padding: 7px 10px;
+	font-size: 14px;
+	outline: none;
+	margin-bottom: 10px;
+}
+
+.contacto-form textarea {
+	display: block;
+	width: 100%;
+	height: 120px;
+	border: 4px solid #fec63e;
+	background: none;
+	padding: 7px 10px;
+	font-size: 14px;
+	outline: none;
+	margin-bottom: 20px;
+}
+
+.contacto-form button {
+	padding: 7px 40px;
+	background: none;
+	border: 4px solid;
+}
+
+.contacto-form button:hover {
+	border: 4px solid #000;
+	color: #000;
+}
+
+.contacto .contacto-dados {
+	color: #000;
+}
+
+.contacto .contacto-dados h3 {
+	color: #fec63e;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.contacto .contacto-dados h3.detalhes {
+	margin-top: 30px;
+}
+
+.contacto .contacto-dados p {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.contacto .contacto-dados p i {
+padding-right: 10px;
+color: #fec63e;
+}
+
+.contacto ul li a:hover {
+	border-color: #000;
+}
+
+.contacto-mapa {
+	margin-bottom: 60px;
+}
+

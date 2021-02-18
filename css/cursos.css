@@ -1,0 +1,159 @@
+.header .logo img {
+  width: 90px;
+  top: -10px;
+}
+
+.interna-cursos {
+	background: url("../img/bg-sobre.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.curso-item {
+	padding-top: 60px;
+}
+
+.curso-item h2 {
+	color: #fff;
+	font-size: 36px;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+	top: -190px;
+	text-align: center;
+	margin-bottom: -72px;
+}
+
+.curso-item h2:before, .curso-item h2:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 14px auto 8px auto;
+}
+
+section.curso-item img.icone {
+    width: 280px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.curso-icone {
+	padding: 50px 0;
+}
+
+.curso-info {
+	background: #000;
+}
+
+.curso-info p {
+	color: #fff;
+	font-size: 18px;
+	line-height: 25px;
+	padding: 30px 40px;
+	height: 180px;
+}
+
+.curso-info ul li {
+	background: #fec63e;
+	font-size: 18px;
+	line-height: 20px;
+	text-transform: uppercase;
+	float: left;
+	width: 229px;
+	height: 49px;
+	text-align: center;
+	padding-top: 15px;
+	font-weight: bold;
+}
+
+.curso-info ul li:nth-child(1), .curso-info ul li:nth-child(2) {
+	margin-bottom: 2px;
+}
+
+.curso-info ul li:nth-child(even) {
+	margin-left: 2px;
+}
+
+/*Formulário*/
+
+.inscricao {
+	background: #000;
+	width: 100%;
+	margin-top: 60px;
+	padding: 40px 0;
+}
+
+.inscricao h2 {
+color: #fec63e;
+}
+
+.inscricao h2:after {
+	background: #fec63e;
+}
+
+.form {
+	padding-right: 60px;
+}
+
+.form label {
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 4px;
+}
+
+.form input {
+	display: block;
+	width: 100%;
+	border: 4px solid #fafafa;
+	color: #fff;
+	background: none;
+	padding: 7px 10px;
+	font-size: 14px;
+	outline: none;
+	margin-bottom: 10px;
+}
+
+.form textarea {
+	display: block;
+	width: 100%;
+	height: 120px;
+	border: 4px solid #fafafa;
+	color: #fff;
+	background: none;
+	padding: 7px 10px;
+	font-size: 14px;
+	outline: none;
+	margin-bottom: 20px;
+}
+
+.form button {
+	padding: 7px 40px;
+	background: none;
+}
+
+.inscricao .dados {
+	color: #fff;
+}
+
+.inscricao .dados h3 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.inscricao .dados h3.detalhes {
+	margin-top: 30px;
+}
+
+.inscricao .dados p {
+	font-size: 18px;
+	line-height: 25px;
+}
+
